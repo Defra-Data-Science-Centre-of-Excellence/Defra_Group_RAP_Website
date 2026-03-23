@@ -1,11 +1,42 @@
 project:
   type: website
+execute:
+  freeze: auto
 
+#"Defra Group RAP Champion Network"
 website:
+  site-url: "https://en.wikipedia.org/wiki/Humber_Gas_Tunnel"
   page-navigation: true
-  title: "Defra Group RAP Champion Network"
-  description: "Homepage for Reproducible Analytical Pipelines in Defra Group."
-  site-url: "https://sta210-s22.github.io/website/"
+  navbar:
+    title: false
+    background: "light" #info could be nice
+    logo: "https://www.shutterstock.com/image-vector/flat-icon-data-pipeline-etl-260nw-2715506223.jpg"
+    logo-alt: "Pipeline" 
+    right: 
+      - text: "Home"
+        href: index.qmd
+      - text: "What is RAP - Analysis Function"
+        href: https://analysisfunction.civilservice.gov.uk/support/reproducible-analytical-pipelines/
+      - text: "Connect"
+        menu:
+          - text: "Join the Community"
+            href: https://en.wikipedia.org/wiki/Humber_Gas_Tunnel
+          - text: "Become a RAP Champion"
+            href: https://en.wikipedia.org/wiki/Humber_Gas_Tunnel
+      - text: "How to RAP"   
+        menu:
+          - text: "Implementing RAP"
+            href: Implementing_RAP.qmd
+          - text: "Maturity Levels of RAP"   
+            href: Levels_of_RAP.qmd
+          - text: "Resources"
+            href: https://defra.sharepoint.com/sites/Community4220/SitePages/RAP-Resource-Library.aspx
+      - icon: github
+        href: https://github.com/orgs/Defra-Data-Science-Centre-of-Excellence/teams/defra-group-rap-champions/repositories
+        text: "GitHub RAP Repositories"
+      - icon: envelope
+        href: https://teams.microsoft.com/l/channel/19%3A36aad292dd7345beb661b8a36edb29a3%40thread.tacv2/Reproducible-Analytical-Pipelines?groupId=a47f64ef-d18a-49a6-a925-2b7d3afb857e&tenantId=770a2450-0227-4c62-90c7-4e38537f1102
+            
 
   repo-url: https://github.com/sta210-s22/website
   repo-actions: [edit, issue]
@@ -13,51 +44,22 @@ website:
   open-graph: true
 
   page-footer:
+    left: "© 2026 Crown Copyright (Defra) <br> All content is available under the Open Government Licence v3.0, except where otherwise stated."
     right: "This page is built with ❤️ and [Quarto](https://quarto.org/)."
     background: "#D9E3E4"
 
-  sidebar:
-    background: "#D9E3E4"
-    logo: "RAP_blue_pipe.png"
-    pinned: true
-    align: center
-    tools:
-      - icon: github
-        href: https://github.com/orgs/Defra-Data-Science-Centre-of-Excellence/teams/defra-group-rap-champions/repositories
-        text: "GitHub RAP Repositories"
-        
-    style: "docked"
-    search: true
-    collapse-level: 1
-    contents:
-      - section: "Homepage"
-        contents: 
-          - href: index.qmd
-            text: "Homepage"
-      - section: "Implementing RAP?"
-        contents:
-          - href: https://analysisfunction.civilservice.gov.uk/support/reproducible-analytical-pipelines/
-            text: What is RAP - Analysis Function
-          - href: Implementing_RAP.qmd
-            text: How to RAP
-          - href: Levels_of_RAP.qmd
-            text: Maturity Levels of RAP
-      - section: "Resources"
-        contents:
-          - href: https://defra.sharepoint.com/sites/Community4220/SitePages/RAP-Resource-Library.aspx
-            text: RAP Resources
 
 format:
   html:
+    page-layout: full
     theme:
       light: [cosmo, theme.scss]
       dark: [cosmo, theme-dark.scss]
     mainfont: "Atkinson Hyperlegible"
     code-copy: true
     code-overflow: wrap
-    toc: true
-
-freeze: auto
+    toc: false
 
 editor: visual
+
 

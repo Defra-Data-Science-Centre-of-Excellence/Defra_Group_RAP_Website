@@ -1,0 +1,163 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "",
+    "section": "",
+    "text": "RAP Art"
+  },
+  {
+    "objectID": "CODE_OF_CONDUCT.html",
+    "href": "CODE_OF_CONDUCT.html",
+    "title": "Defra Group RAP Champion Network",
+    "section": "",
+    "text": "Contributors to this repository are expected to follow the Contributor Covenant Code of Conduct, and those working within Government are also expected to follow the Civil Service Code."
+  },
+  {
+    "objectID": "CODE_OF_CONDUCT.html#civil-service-code",
+    "href": "CODE_OF_CONDUCT.html#civil-service-code",
+    "title": "Defra Group RAP Champion Network",
+    "section": "Civil Service Code",
+    "text": "Civil Service Code\nThe Civil Service Code"
+  },
+  {
+    "objectID": "CODE_OF_CONDUCT.html#our-pledge",
+    "href": "CODE_OF_CONDUCT.html#our-pledge",
+    "title": "Defra Group RAP Champion Network",
+    "section": "Our Pledge",
+    "text": "Our Pledge\nWe as members, contributors, and leaders pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.\nWe pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community."
+  },
+  {
+    "objectID": "CODE_OF_CONDUCT.html#our-standards",
+    "href": "CODE_OF_CONDUCT.html#our-standards",
+    "title": "Defra Group RAP Champion Network",
+    "section": "Our Standards",
+    "text": "Our Standards\nExamples of behaviour that contributes to a positive environment for our community include:\n\nDemonstrating empathy and kindness toward other people\nBeing respectful of differing opinions, viewpoints, and experiences\nGiving and gracefully accepting constructive feedback\nAccepting responsibility and apologizing to those affected by our mistakes, and learning from the experience\nFocusing on what is best not just for us as individuals, but for the overall community\n\nExamples of unacceptable behaviour include:\n\nThe use of sexualized language or imagery, and sexual attention or advances of any kind\nTrolling, insulting or derogatory comments, and personal or political attacks\nPublic or private harassment\nPublishing others’ private information, such as a physical or email address, without their explicit permission\nOther conduct which could reasonably be considered inappropriate in a professional setting ## Enforcement Responsibilities Community leaders are responsible for clarifying and enforcing our standards of acceptable behaviour and will take appropriate and fair corrective action in response to any behaviour that they deem inappropriate, threatening, offensive, or harmful.\n\nCommunity leaders have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, and will communicate reasons for moderation decisions when appropriate."
+  },
+  {
+    "objectID": "CODE_OF_CONDUCT.html#scope",
+    "href": "CODE_OF_CONDUCT.html#scope",
+    "title": "Defra Group RAP Champion Network",
+    "section": "Scope",
+    "text": "Scope\nThis Code of Conduct applies within all community spaces, and also applies when an individual is officially representing the community in public spaces. Examples of representing our community include using an official e-mail address, posting via an official social media account, or acting as an appointed representative at an online or offline event."
+  },
+  {
+    "objectID": "CODE_OF_CONDUCT.html#enforcement",
+    "href": "CODE_OF_CONDUCT.html#enforcement",
+    "title": "Defra Group RAP Champion Network",
+    "section": "Enforcement",
+    "text": "Enforcement\nInstances of abusive, harassing, or otherwise unacceptable behaviour may be reported to the community RAP champions. All complaints will be reviewed and investigated and will result in a response that is deemed necessary and appropriate to the circumstances. The project team is obligated to maintain confidentiality with regard to the reporter of an incident. Further details of specific enforcement policies may be posted separately.\nProject maintainers who do not follow or enforce the Code of Conduct in good faith may face temporary or permanent repercussions as determined by other members of the project’s leadership."
+  },
+  {
+    "objectID": "CODE_OF_CONDUCT.html#attribution",
+    "href": "CODE_OF_CONDUCT.html#attribution",
+    "title": "Defra Group RAP Champion Network",
+    "section": "Attribution",
+    "text": "Attribution\nThis Code of Conduct is adapted from the Contributor Covenant, version 2.0 and the govcookiecutter Code of Conduct.\nCommunity Impact Guidelines were inspired by Mozilla’s code of conduct enforcement ladder.\nFor answers to common questions about this code of conduct, see the FAQ. Translations are available here."
+  },
+  {
+    "objectID": "Implementing_RAP.html",
+    "href": "Implementing_RAP.html",
+    "title": "How to RAP",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet. Ut consequatur tempore ab perferendis voluptate est animi necessitatibus id autem temporibus et itaque minus. Et dolore saepe nam laudantium repellat eos Quis officia. Et quia obcaecati eum unde expedita quo dolore voluptas sit nisi Quis."
+  },
+  {
+    "objectID": "Implementing_RAP.html#maturity-levels-of-rap",
+    "href": "Implementing_RAP.html#maturity-levels-of-rap",
+    "title": "How to RAP",
+    "section": "Maturity Levels of RAP",
+    "text": "Maturity Levels of RAP\nWhat good-good-like and resources to achieve this.\nLorem ipsum dolor sit amet. Ut consequatur tempore ab perferendis voluptate est animi necessitatibus id autem temporibus et itaque minus. Et dolore saepe nam laudantium repellat eos Quis officia. Et quia obcaecati eum unde expedita quo dolore voluptas sit nisi Quis."
+  },
+  {
+    "objectID": "Levels_of_RAP.html",
+    "href": "Levels_of_RAP.html",
+    "title": "Maturity Levels of RAP",
+    "section": "",
+    "text": "The RAP Maturity Model is a reference for what good looks like when producing Reproducible Analytical Pipelines (RAPs). This guidance is the sum of learning and conversations with RAP champion networks across government from the Department for Education, NHS England, ONS and Analysis Function. Our maturity levels are defined as either ‘Good’, ‘Great’, or ‘Excellent’; these names have been chosen to make it clear that any steps taken to better align your project with RAP principles are beneficial and to recognise the level of RAP achieved can be proportional to your project. Each tier includes all the points from the previous tier, building on each to improve your analysis with RAP principles.\nThis guidance is set out by theme, within which, the minimum requirements for each maturity level of RAP against each theme are described. These themes are:\n\nAutomation\nQuality Assurance & Testing\nReproducibility\nData Management\n\nEach content theme has an option for ‘low-code’ RAPs; recognising that RAP principles can be met using software which requires minimal coding or none at all. Low-code software has become increasingly popular since the early 2020s, recognising this, this is the first Maturity Levels of RAP within the civil service to acknowledge this approach to create reproducible analytical pipelines. Low-code tools such as FME, MS Fabric, Power Query, Power BI however, are limited on their reproducibility as unlike open-source code software (R/Python/SQL etc), low-code software tends to be closed-source and therefore only reproducible if you purchase the software making true reproduction of analysis a limiting factor.\nIf you have any questions about this document which aren’t covered here, you can contact the Defra RAP Champions or send a message in the RAP Teams Channel."
+  },
+  {
+    "objectID": "Levels_of_RAP.html#good",
+    "href": "Levels_of_RAP.html#good",
+    "title": "Maturity Levels of RAP",
+    "section": "Good",
+    "text": "Good\nLorem ipsum dolor sit amet. Ut consequatur tempore ab perferendis voluptate est animi necessitatibus id autem temporibus et itaque minus. Et dolore saepe nam laudantium repellat eos Quis officia. Et quia obcaecati eum unde expedita quo dolore voluptas sit nisi Quis."
+  },
+  {
+    "objectID": "Levels_of_RAP.html#great",
+    "href": "Levels_of_RAP.html#great",
+    "title": "Maturity Levels of RAP",
+    "section": "Great",
+    "text": "Great\nLorem ipsum dolor sit amet. Ut consequatur tempore ab perferendis voluptate est animi necessitatibus id autem temporibus et itaque minus. Et dolore saepe nam laudantium repellat eos Quis officia. Et quia obcaecati eum unde expedita quo dolore voluptas sit nisi Quis."
+  },
+  {
+    "objectID": "index.html#what-we-do",
+    "href": "index.html#what-we-do",
+    "title": "",
+    "section": "WHAT WE DO",
+    "text": "WHAT WE DO"
+  },
+  {
+    "objectID": "index.html#growing-the-open-movement",
+    "href": "index.html#growing-the-open-movement",
+    "title": "",
+    "section": "GROWING THE OPEN MOVEMENT",
+    "text": "GROWING THE OPEN MOVEMENT"
+  },
+  {
+    "objectID": "index.html#from-our-blog",
+    "href": "index.html#from-our-blog",
+    "title": "",
+    "section": "FROM OUR BLOG",
+    "text": "FROM OUR BLOG"
+  },
+  {
+    "objectID": "index.html#open-resources",
+    "href": "index.html#open-resources",
+    "title": "",
+    "section": "OPEN RESOURCES",
+    "text": "OPEN RESOURCES"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "about",
+    "section": "",
+    "text": "A page about who the RAP champions are and the wider RAP movement"
+  },
+  {
+    "objectID": "connect.html",
+    "href": "connect.html",
+    "title": "connect",
+    "section": "",
+    "text": "A page which creates new community members"
+  },
+  {
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "resources",
+    "section": "",
+    "text": "A page with RAP resources, how to guides and links to other RAPpers"
+  },
+  {
+    "objectID": "Levels_of_RAP.html#theme-automation",
+    "href": "Levels_of_RAP.html#theme-automation",
+    "title": "Maturity Levels of RAP",
+    "section": "Theme: Automation",
+    "text": "Theme: Automation\n\n\nTable 1: Table: Automation {.striped .hover}\n\n\n\n\n\n\nLevel\nDescription\n\n\n\n\nLow-code\n\nAutomate and minimise manual steps.\nManual steps must be documented in the README.\nPipeline runs on schedule or trigger.\n\n\n\nGood\n\nAutomate and minimise manual steps.\nManual steps must be documented in the README.\n\n\n\nGreat\n\nOutputs are automated with minimal intervention.\nPipeline runs on schedule or trigger.\nLogs are automatically recorded.\n\n\n\nExcellent\n\nCI/CD runs tests (e.g. GitHub Actions, Databricks).\nTest logs are recorded (pytest, testthat, etc.)."
+  },
+  {
+    "objectID": "Levels_of_RAP.html#theme-quality-assurance-testing",
+    "href": "Levels_of_RAP.html#theme-quality-assurance-testing",
+    "title": "Maturity Levels of RAP",
+    "section": "Theme: Quality Assurance & Testing",
+    "text": "Theme: Quality Assurance & Testing\nQuality assurance is ubiquitous with analysis, and recommended by the Aqua book, you should strive to apply the most appropriate and proportionate quality assurance practices given the risks associated with your work.\n\n\n\n\n\n\n\nLevel\nLow-code\nDescription\n\nPipeline has been peer reviewed by someone outside team this may involve dual running in another software to to check outputs are the same.\n\n\n\n\n\nGood\n\nCode and outputs have been peer reviewed within the team.\n\n\n\nGreat\n\nMore than one person has ownership of the code, e.g. through pair-coding.\nCustom functions provide error messages.\nPipeline includes testing. We recommend unit tests to ensure functional “units” within your code operate as they should under different scenarios, like accommodating missing data, extreme values. Here, an will inform your unit tests.\n\n\n\nExcellent\n\nCode and outputs have been peer reviewed by someone not involved in development, e.g. outside of team.\nRepository automatically runs tests via CI/CD"
+  },
+  {
+    "objectID": "Levels_of_RAP.html#theme-reproducibility",
+    "href": "Levels_of_RAP.html#theme-reproducibility",
+    "title": "Maturity Levels of RAP",
+    "section": "Theme: Reproducibility",
+    "text": "Theme: Reproducibility\nReproducibility puts the R in RAP, if your RAP isn’t reproducible its an analytical pipeline. Reproducibility means your analysis is transparent and can be replicated, improving credibility of your results. Beyond this, reproducibility also preserves process knowledge management.\nThis is important in government, where analysis can be scrutinised through freedom of information requests or analytical pipeline results may be politically sensitive."
+  }
+]

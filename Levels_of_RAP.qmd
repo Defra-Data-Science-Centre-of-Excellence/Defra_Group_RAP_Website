@@ -4,15 +4,77 @@ title: "Maturity Levels of RAP"
 
 ## Introduction 
 
-Lorem ipsum dolor sit amet. Ut consequatur tempore ab perferendis voluptate est animi necessitatibus id autem temporibus et itaque minus. Et dolore saepe nam laudantium repellat eos Quis officia. Et quia obcaecati eum unde expedita quo dolore voluptas sit nisi Quis.
+The RAP Maturity Model is a reference for what good looks like when producing Reproducible Analytical Pipelines (RAPs). This guidance is the sum of learning and conversations with RAP champion networks across government from the Department for Education, NHS England, ONS and Analysis Function. Our maturity levels are defined as either ‘Good’, ‘Great’, or ‘Excellent’; these names have been chosen to make it clear that any steps taken to better align your project with RAP principles are beneficial and to recognise the level of RAP achieved can be proportional to your project. Each tier includes all the points from the previous tier, building on each to improve your analysis with RAP principles. 
 
-## Good 
+ 
 
-Lorem ipsum dolor sit amet. Ut consequatur tempore ab perferendis voluptate est animi necessitatibus id autem temporibus et itaque minus. Et dolore saepe nam laudantium repellat eos Quis officia. Et quia obcaecati eum unde expedita quo dolore voluptas sit nisi Quis.
+This guidance is set out by theme, within which, the minimum requirements for each maturity level of RAP against each theme are described. These themes are:  
 
-## Great
+- Automation
+- Quality Assurance & Testing
+- Reproducibility
+- Data Management 
 
-Lorem ipsum dolor sit amet. Ut consequatur tempore ab perferendis voluptate est animi necessitatibus id autem temporibus et itaque minus. Et dolore saepe nam laudantium repellat eos Quis officia. Et quia obcaecati eum unde expedita quo dolore voluptas sit nisi Quis.
+Each content theme has an option for ‘low-code’ RAPs; recognising that RAP principles can be met using software which requires minimal coding or none at all. Low-code software has become increasingly popular since the early 2020s, recognising this, this is the first Maturity Levels of RAP within the civil service to acknowledge this approach to create reproducible analytical pipelines. Low-code tools such as FME, MS Fabric, Power Query, Power BI however, are limited on their reproducibility as unlike open-source code software (R/Python/SQL etc), low-code software tends to be closed-source and therefore only reproducible if you purchase the software making true reproduction of analysis a limiting factor. 
+
+If you have any questions about this document which aren’t covered here, you can contact the Defra [RAP Champions](https://defra.sharepoint.com/sites/Community767/SitePages/Reproducible-Analytical-Pipelines-(RAP).aspx) or send a message in the [RAP Teams Channel](https://teams.microsoft.com/l/channel/19%3A36aad292dd7345beb661b8a36edb29a3%40thread.tacv2/Reproducible-Analytical-Pipelines?groupId=a47f64ef-d18a-49a6-a925-2b7d3afb857e&tenantId=770a2450-0227-4c62-90c7-4e38537f1102). 
+
+ 
+## Theme: Automation
+
++--------------+----------------------------------------------------------+
+| Level        | Description                                              |
++==============+==========================================================+
+| **Low-code** | - Automate and minimise manual steps.                    |
+|              | - Manual steps must be documented in the README.         |
+|              | - Pipeline runs on schedule or trigger.                  |
++--------------+----------------------------------------------------------+
+| **Good**     | - Automate and minimise manual steps.                    |
+|              | - Manual steps must be documented in the README.         |
++--------------+----------------------------------------------------------+
+| **Great**    | - Outputs are automated with minimal intervention.       |
+|              | - Pipeline runs on schedule or trigger.                  |
+|              | - Logs are automatically recorded.                       |
++--------------+----------------------------------------------------------+
+| **Excellent**| - CI/CD runs tests (e.g. GitHub Actions, Databricks).    |
+|              | - Test logs are recorded (pytest, testthat, etc.).       |
++--------------+----------------------------------------------------------+
+
+: Table: Automation {#tbl-automation .striped .hover}
+
+## Theme: Quality Assurance & Testing 
+
+Quality assurance is ubiquitous with analysis, and recommended by the Aqua book, you should strive to apply the most appropriate and proportionate quality assurance practices given the risks associated with your work.
+
++--------------+----------------------------------------------------------+
+| Level        | Description                                              |
++==============+==========================================================+
+| **Low-code** | - Pipeline has been peer reviewed by someone outside team|
+|              | this may involve dual running in another software to     |
+|              | to check outputs are the same.                           |
++--------------+----------------------------------------------------------+
+| **Good**     | - Code and outputs have been peer reviewed within the    |
+|              |  team.                                                   |        
++--------------+----------------------------------------------------------+
+| **Great**    | - More than one person has ownership of the code,        |
+|              | e.g. through pair-coding.                                | 
+|              | - Custom functions provide error messages.               |
+|              | - Pipeline includes testing. We recommend unit tests to  |
+|              |  ensure functional “units” within your code operate as   |
+|              |  they should under different scenarios, like             |
+|              |  accommodating missing data, extreme values. Here, an    |        |              |  understanding of the possible inputs to your functions  |
+|              |  will inform your unit tests.                            |
++--------------+----------------------------------------------------------+
+| **Excellent**| - Code and outputs have been peer reviewed by someone not|
+|              | involved in development, e.g. outside of team.           |
+|              | - Repository automatically runs tests via CI/CD          |
++--------------+----------------------------------------------------------+
+
+## Theme: Reproducibility 
+
+Reproducibility puts the R in RAP, if your RAP isn’t reproducible its an analytical pipeline. Reproducibility means your analysis is transparent and can be replicated, improving credibility of your results. Beyond this, reproducibility also preserves process knowledge management. 
+
+This is important in government, where analysis can be scrutinised through freedom of information requests or analytical pipeline results may be politically sensitive. 
 
 # Excellent
 
